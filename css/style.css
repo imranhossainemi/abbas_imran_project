@@ -7,6 +7,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    background-color: antiquewhite;
 }
 #header #header-img{
     width: 300px;
@@ -68,4 +69,58 @@ section.contact #form{
 #video{
     width: 100%;
     text-align: center;
+}
+
+section#pricing{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#price{
+    width: 300px;
+    height: 220px;
+    border: #000000 solid 1px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#title{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+#price a button{
+    background-color: yellow;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+.footer{
+    width: 80%;
+    height: 100px;
+    background-color: beige;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+footer ul{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
 }
