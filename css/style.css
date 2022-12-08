@@ -5,6 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 #header #header-img{
     width: 300px;
@@ -30,6 +32,7 @@
 }
 
 section.contact{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,4 +53,19 @@ section.contact #form{
     font-size: 15px;
     font-weight: 800;
     border: none;
+}
+#features{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 100px 0px;
+}
+#features .features-list{
+    width: 800px;
+}
+#video{
+    width: 100%;
+    text-align: center;
 }
